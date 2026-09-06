@@ -1,0 +1,6 @@
+{
+  "name": "UNITYX",
+  "description": "Advanced Offline Native Android Assistant & Task Automation Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

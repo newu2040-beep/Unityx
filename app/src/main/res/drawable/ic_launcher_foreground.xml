@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Ambient Glow Ring -->
+    <path
+        android:pathData="M54,20 a34,34 0 1,0 0.001,0 Z"
+        android:strokeColor="#5B6CFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.3" />
+
+    <!-- Main Circular Disc (Pure Native Android Circle, Zero Rectangular Corners) -->
+    <path
+        android:pathData="M54,24 a30,30 0 1,0 0.001,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:startColor="#5A62F4"
+                android:centerColor="#4348CD"
+                android:endColor="#2E328F"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Concentric Soundwave Arcs (Outer) -->
+    <path
+        android:pathData="M35,43 A22,22 0 0,0 35,65"
+        android:strokeColor="#C7D2FE"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.75" />
+
+    <path
+        android:pathData="M73,43 A22,22 0 0,1 73,65"
+        android:strokeColor="#C7D2FE"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.75" />
+
+    <!-- Concentric Soundwave Arcs (Inner) -->
+    <path
+        android:pathData="M41,46 A14,14 0 0,0 41,62"
+        android:strokeColor="#E0E7FF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M67,46 A14,14 0 0,1 67,62"
+        android:strokeColor="#E0E7FF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+
+    <!-- Microphone Capsule (Rounded Pill) -->
+    <path
+        android:pathData="M49,45 A5,5 0 0,1 59,45 L59,53 A5,5 0 0,1 49,53 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Microphone U-Cradle -->
+    <path
+        android:pathData="M45.5,50 A8.5,8.5 0 0,0 62.5,50"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Microphone Stem & Base -->
+    <path
+        android:pathData="M54,59.5 L54,66 M50,66 L58,66"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Emerald AI Intelligence Node -->
+    <path
+        android:pathData="M64,38 a3,3 0 1,0 0.001,0 Z"
+        android:fillColor="#10B981" />
+
+    <!-- Connected Spark Satellite -->
+    <path
+        android:pathData="M44,39 a1.8,1.8 0 1,0 0.001,0 Z"
+        android:fillColor="#A5B4FC" />
+
+</vector>
